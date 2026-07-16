@@ -22,3 +22,6 @@ test("another test", async ({ page }) => {
 });
 
 //In Playwright Test Framework -> It's Automatic
+//When you write Playwright tests using `@playwright/test`,
+// you DON'T manually create browser/context/page.
+// The framework does it for you via **fixtures**.
