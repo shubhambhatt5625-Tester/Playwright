@@ -7,3 +7,6 @@ test('Verify our first TC', async ({ page }) => {
     // id = 'vow-login-logo'
     await expect(logo_img).toBeVisible();
 });
+
+//onlytesting024@gmail.com
+//Qwerty@1234

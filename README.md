@@ -30,9 +30,16 @@ npx playwright show-report
 
 ```
 PlayWright/
-  tests/            # Test files
-  playwright.config.ts  # Playwright configuration
-  package.json      # Dependencies
+  tests/
+    02_first_tests/          # First running test - basic verification
+    03_locator_command/      # Locator command specs
+    04_session_storage/      # Session storage tests
+    05_ui_elements/          # UI element interactions
+    06_Multiple_Element_/    # Handling multiple elements & filtering
+    07_WebTables/            # Web table & dynamic table tests
+    template.spec.ts         # Test template
+  playwright.config.ts       # Playwright configuration
+  package.json               # Dependencies
 ```
 
 ## Configuration
