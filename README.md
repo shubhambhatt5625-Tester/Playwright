@@ -37,6 +37,7 @@ PlayWright/
     05_ui_elements/          # UI element interactions
     06_Multiple_Element_/    # Handling multiple elements & filtering
     07_WebTables/            # Web table & dynamic table tests
+    08_Web_Select_Frames_Iframe/ # Dropdowns, selects & iframe handling
     template.spec.ts         # Test template
   playwright.config.ts       # Playwright configuration
   package.json               # Dependencies

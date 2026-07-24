@@ -16,14 +16,17 @@ test('Web tabel', async ({ page }) => {
             // const cell = page.locator(`xpath=//table[@id='customers']/tbody/tr[${i}]/td[${j}]`);
             // console.log(await cell.textContent())
             const dyanamicpath = firstpart + i + secondpart + j + thirdpart;
-            //const dyanamicpath`${firstpart}${i}${secondpart}${j}${thirdpart}`
-            //both the ways are correct
             console.log(dyanamicpath);
-
-
-
-
-
+            //const dyanamicpath = `${firstpart}${i}${secondpart}${j}${thirdpart}`
+            // both the ways are correct
+            // const data = await page.locator(dyanamicpath).innerText();
+            // console.log(data);
+            // if (data.includes('Helen Bennett')) {
+            //     const countryPath = `${dyanamicpath}/following-sibling::td`;
+            //     const countryText = await page.locator(countryPath).innerText();
+            //     console.log('------');
+            //     console.log(`Helen Bennett is In - ${countryText}`);
+            // }
         }
     }
 });
