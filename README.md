@@ -38,6 +38,9 @@ PlayWright/
     06_Multiple_Element_/    # Handling multiple elements & filtering
     07_WebTables/            # Web table & dynamic table tests
     08_Web_Select_Frames_Iframe/ # Dropdowns, selects & iframe handling
+    09_Frame_Iframe/             # Single & multiple frame/iframe handling
+    10_Keyboard_Hover_Drag_Drop/ # Keyboard, hover, drag & drop, right click
+    11_JS_Alerts/                # JavaScript alert handling
     template.spec.ts         # Test template
   playwright.config.ts       # Playwright configuration
   package.json               # Dependencies
