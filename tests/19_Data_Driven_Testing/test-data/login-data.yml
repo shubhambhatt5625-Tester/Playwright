@@ -1,0 +1,8 @@
+- description: valid login
+  username: admin@example.com
+  password: Password123
+  expectedURL: https://app.thetestingacademy.com/playwright/multiple_element_filter
+- description: invalid login
+  username: wrong@example.com
+  password: wrongpassword
+  expectedURL: https://app.thetestingacademy.com/playwright/multiple_element_filter
